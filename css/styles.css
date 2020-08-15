@@ -1,9 +1,6 @@
 body {
   font-family: "Open Sans", sans-serif; }
 
-h1, h2, h3 {
-  font-family: "Lobster", cursive; }
-
 h2 {
   color: #3046C5; }
 
@@ -11,14 +8,17 @@ header h2 {
   color: #CEC8FF; }
 
 footer {
-  background-image: linear-gradient(#CEC8FF, white);
-  padding: 20px 0px; }
+  background-image: url("https://inscribemag.com/wp-content/uploads/chalkboard-texture-8.png");
+  padding: 20px 0px; 
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  color: white;
+}
 
 .jumbotron {
   margin: 0;
-  padding: 30px;
-  background-image: linear-gradient(to right, #5637dd, #3046C5, #901CAD);
-  color: white; }
+  padding: 30px; }
 
 .row-content {
   padding: 50px 0;
@@ -26,11 +26,8 @@ footer {
   min-height: 200px; }
 
 .navbar {
-  background-color: #901CAD; }
+  background-color: black; }
 
-.site-footer {
-  background-image: linear-gradient(#CEC8FF, white);
-  padding: 20px 0; }
 
 .tab-content {
   border: 1px solid #DDD;
