@@ -2,17 +2,12 @@ body {
   font-family: "Open Sans", sans-serif; }
 
 h2 {
-  color: #3046C5; }
-
-header h2 {
-  color: #CEC8FF; }
+  font-weight: 700; }
 
 footer {
-  background-image: url("https://inscribemag.com/wp-content/uploads/chalkboard-texture-8.png");
+  /* background-image: url("https://inscribemag.com/wp-content/uploads/chalkboard-texture-8.png"); */
+  background-color: black;
   padding: 20px 0px; 
-  position: absolute;
-  bottom: 0;
-  width: 100%;
   color: white;
 }
 
@@ -30,18 +25,5 @@ footer {
 
 
 .tab-content {
-  border: 1px solid #DDD;
-  border-top: none;
+  border: none;
   padding: 10px; }
-
-.carousel-caption {
-  background-color: rgba(0, 0, 0, 0.5); }
-
-.carousel {
-  border: solid #5637dd; }
-
-#carouselButton {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  z-index: 100; }
