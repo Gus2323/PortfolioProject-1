@@ -5,15 +5,14 @@ h2 {
   font-weight: 700; }
 
 footer {
-  /* background-image: url("https://inscribemag.com/wp-content/uploads/chalkboard-texture-8.png"); */
   background-color: black;
   padding: 20px 0px; 
   color: white;
 }
 
-.jumbotron {
-  margin: 0;
-  padding: 30px; }
+.jumbotron{
+  margin:0;
+}
 
 .row-content {
   padding: 50px 0;
@@ -27,3 +26,33 @@ footer {
 .tab-content {
   border: none;
   padding: 10px; }
+
+  h5{
+    font-weight: 600;
+  }
+  .head{
+    font-weight: 400;
+  }
+
+  .module {
+    background: 
+      linear-gradient(
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.1)
+      ),
+      url(https://static.dribbble.com/users/1731254/screenshots/8517286/media/f36580c263f4b65067011b58b64ab4bf.png);
+    background-size: cover;
+    position: relative;
+  }
+
+  .mid h2 {
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 2rem;
+    transform: translate(-50%, -50%);
+  }
