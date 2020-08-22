@@ -23,121 +23,180 @@
 
 <body>
 
-    <header class="jumbotron jumbotron-fluid module">
+    <header class="jumbotron jumbotron-fluid module sticky-top">
         <div class="container">
-          <div class="row ">
-            <div class="col">
-              <div class="mid">
-                <h1>Taqueria El Grullo</h1>
-              </div>
+            <div class="row ">
+                <div class="col">
+                    <div class="mid">
+                        <h1>Taqueria El Grullo</h1>
+                    </div>
+                </div>
             </div>
+        </div>
+    </header>
+
+    <!-- <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
+        <div class="container">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbar">
+            <ul class="navbar-nav">
+              <li class="nav-item"><a class="nav-link" href="index.html"><i class="fa fa-home fa-lg"></i> Home</a>
+              </li>
+              <li class="nav-item"><a class="nav-link" href="aboutus.html"><i class="fa fa-info fa-lg"></i>
+                  About</a></li>
+              <li class="nav-item"><a class="nav-link" href="contactus.html"><i class="fa fa-address-card fa-lg"></i>
+                  Contact</a></li>
+              <li class="nav-item active"><a class="nav-link" href="#"><i class="fa fa-cutlery fa-lg"></i> Menu</a>
+              </li>
+            </ul>
           </div>
         </div>
-      </header>
+      </nav> -->
 
-    <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
-        <div class="container">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nucampNavbar">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="nucampNavbar">
-                <ul class="navbar-nav">
-                    <li class="nav-item active"><a class="nav-link" href="#"><i class="fa fa-home fa-lg"></i> Home</a>
-                    </li>
-                    <li class="nav-item"><a class="nav-link" href="aboutus.html"><i class="fa fa-info fa-lg"></i>
-                            About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="contactus.html"><i
-                                class="fa fa-address-card fa-lg"></i> Contact</a></li>
-                    <li class="nav-item "><a class="nav-link" href="menu.html"><i class="fa fa-cutlery fa-lg"></i> Menu</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-
-    <div class="container">
-        <div class="row row-content align-items-center">
-            <div class="col-sm-4 order-sm-last  col-md-3">
-                <h2 class="text-sm-right">Discover & Review</h2>
-            </div>
-            <div class="col">
-                <div class="media">
-                    <img class="d-flex mr-3 img-thumbnail" src="img/breadcrumb-trail-thumb.jpg"
-                        alt="Breadcrump Trail thumbnail" />
-                    <div class="media-body align-self-center">
-                        <h3>Our Campsites</h3>
-                        <p class="d-none d-sm-block">Explore our growing database of curated campsites and leave your
-                            own reviews! </p>
-                    </div>
+    <div id="myModal" class="modal fade">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header bg-primary text-white">
+                    <h4 class="modal-title">Open For Business!</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
                 </div>
-            </div>
-        </div>
-
-        <div class="row row-content align-items-center">
-            <div class="col-sm-4 col-md-3">
-                <h2>Featured Campsites</h2>
-            </div>
-            <div class="col">
-                <div class="media">
-                    <div class="media-body">
-                        <h3>React Lake Campground</h3>
-                        <p class="d-none d-sm-block">Nestled in the foothills of the Chrome Mountains, this campground
-                            on
-                            the shores of the pristine React Lake is
-                            a favorite for fly fishers.</p>
-                    </div>
-                    <img class="d-flex ml-3 img-thumbnail" src="img/react-lake-thumb.jpg" />
-                </div>
-            </div>
-        </div>
-
-        <div class="row row-content align-items-center">
-            <div class="col-sm-4 order-sm-last col-md-3">
-                <h2 class="text-sm-right">Our Community Partners</h2>
-            </div>
-            <div class="col">
-                <div class="media">
-                    <img class="d-flex mr-3 img-thumbnail" src="img/bootstrap-thumb.png" alt="Bootstrap Outfitters" />
-                    <div class="media-body align-self-center">
-                        <h3>Bootstrap Outfitters</h3>
-                        <p class="d-none d-sm-block">Bootstrap Outfitters supplies you with gear you need at prices you
-                            can't beat. </p>
-                    </div>
+                <div class="modal-body">
+                    <p>We are now open for business. Remember to wear a mask and practice social distance. Thank You!
+                    </p>
+                    <button type="button" class="btn btn-primary" data-dismiss="modal" aria-hidden="true">View
+                        Menu</button>
                 </div>
             </div>
         </div>
     </div>
 
+    <div class="container">
+        <section class="ftco-section" id="section-menu">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center mt-4 mb-4">
+                        <h2 class="text-primary display-4 head">Our Menu</h2>
+                    </div>
+
+                    <div class="col-md-12 text-center">
+
+                        <div class="tab-content">
+
+                            <div class="row">
+                                <div class="col-md-6 col-lg-4 py-2">
+                                    <div class="card h-100">
+                                        <img class="card-img-top h-60"
+                                            src="https://cdn.kiwilimon.com/recetaimagen/34016/39654.jpg">
+                                        <div class="card-body">
+                                            <h5 class="card-title text-primary">Tacos</h5>
+                                            <ul class="list-unstyled">
+                                                <li>Carne Asada / Steak</li>
+                                                <li>Chicken / Pollo</li>
+                                                <li>Cabeza / Beef</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6 col-lg-4 py-2">
+                                    <div class="card h-100">
+                                        <img class="card-img-top h-60"
+                                            src="https://dinnerthendessert.com/wp-content/uploads/2018/08/Breakfast-Burrito-2-1.jpg">
+                                        <div class="card-body">
+                                            <h5 class="card-title text-primary">Burritos</h5>
+                                            <ul class="list-unstyled">
+                                                <li>Carne Asada / Steak</li>
+                                                <li>Chicken / Pollo</li>
+                                                <li>Cabeza / Beef</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6 col-lg-4 py-2">
+                                    <div class="card h-100">
+                                        <img class="card-img-top h-60"
+                                            src="https://www.thespruceeats.com/thmb/QMtYIwEWurscuiiUUvQYBIStn4U=/2000x1334/filters:no_upscale():max_bytes(150000):strip_icc()/Getty-Aguas-Frescas-584322c85f9b5851e53e6e9a.jpg">
+                                        <div class="card-body h-40">
+                                            <h5 class="card-title text-primary">Aguas</h5>
+                                            <ul class="list-unstyled">
+                                                <li>Piña / Pineapple</li>
+                                                <li>Sandia / Watermelon</li>
+                                                <li>Limon / Lime</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6 col-lg-4 py-2">
+                                    <div class="card h-100">
+                                        <img class="card-img-top h-60"
+                                            src="https://bloximages.newyork1.vip.townnews.com/gwinnettdailypost.com/content/tncms/assets/v3/editorial/a/a0/aa0b7fc0-497d-5b4a-96fa-e32cacd96264/5c243cdf79954.image.jpg?resize=1200%2C806">
+                                        <div class="card-body h-40">
+                                            <h5 class="card-title text-primary">Mariscos</h5>
+                                            <ul class="list-unstyled">
+                                                <li>Camaron / Shrimp</li>
+                                                <li>Pulpo / Octopus</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6 col-lg-4 py-2">
+                                    <div class="card h-100">
+                                        <img class="card-img-top h-60"
+                                            src="https://i.pinimg.com/originals/df/7f/38/df7f384de04d760226e951f8ee74e586.jpg">
+                                        <div class="card-body h-40">
+                                            <h5 class="card-title text-primary">Menudo</h5>
+                                            <p class="card-text">Menudo caliente</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-12 text-center mt-4 mb-4">
+                                    <h2 class="text-primary display-4 head">Location</h2>
+                                </div>
+                                <div class="col">
+                                    <iframe class="col"
+                                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.229197124018!2d-122.23018308486463!3d37.78466811936365!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808f86fa5aea269d%3A0x7848704e99b3cba2!2sTaqueria%20El%20Grullo!5e0!3m2!1sen!2sus!4v1598071280442!5m2!1sen!2sus"
+                                        height="400" frameborder="10" style="border:0;" allowfullscreen=""
+                                        aria-hidden="false" tabindex="0"></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
     <footer class="site-footer">
         <div class="container">
             <div class="row">
-                <div class="col-4 col-sm-2 offset-1">
-                    <h5>Links</h5>
+                <div class="col-sm-6 col-md-3 text-center mx-auto">
+                    <h5>Location</h5>
+                    <p>2630 Foothill Blvd #1716, Oakland, CA 94601</p>
+                </div>
+                <div class="col-sm-6 col-md-6 text-center mx-auto">
+                    <h5>Hours</h5>
                     <ul class="list-unstyled">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="aboutus.html">About</a></li>
-                        <li><a href="contactus.html">Contact</a></li>
-                        <li><a href="menu.html">Menu</a></li>
+                        <li>Monday - Sunday: 7AM - 10PM</li>
                     </ul>
                 </div>
-                <div class="col-6 col-sm-5 text-center">
-                    <h5>Social</h5>
-                    <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i
-                            class="fa fa-instagram"></i></a>
-                    <a class="btn btn-social-icon btn-facebook" href="http://facebook.com/"><i
-                            class="fa fa-facebook"></i></a>
-                    <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i
-                            class="fa fa-twitter"></i></a>
-                    <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i
-                            class="fa fa-youtube"></i></a>
+                <div class="col-sm-6 col-md-3 text-center mx-auto">
+                    <h5 class="text-center">Contact</h5>
+                    <a role="button" class="btn btn-link" href="tel:+15102616091"><i class="fa fa-phone"></i>
+                        (510) 261-6091</a><br />
+                    <!-- <a role="button" class="btn btn-link" href="mailto:campsites@nucamp.co"><i class="fa fa-envelope-o"></i>
+                restaurant@gmail.com</a> -->
                 </div>
-                <div class="col-sm-4 text-center">
-                    <h5>Contact</h5>
-                    <a role="button" class="btn btn-link" href="tel:+12065551234"><i class="fa fa-phone"></i>
-                        1-206-555-1234</a><br>
-                    <a role="button" class="btn btn-link" href="mailto:campsites@nucamp.co"><i
-                            class="fa fa-envelope-o"></i> campsites@nucamp.co</a>
-                </div>
+            </div>
+            <div class="row mt-3">
+                <p class="text-center mx-auto">Copyright © 2020, Taqueria El Grullo</p>
             </div>
         </div>
     </footer>
@@ -146,6 +205,7 @@
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
     <!-- endbuild -->
 </body>
 
